@@ -1,9 +1,9 @@
 
 
 
-# Use cases
-# - Add objects to the list
-# - 
+# # Use cases
+# # - Add objects to the list
+# # - 
 # def modify_object_datas(digital_objects):
 #     """
 #     Custom function allows to modify digital objects data in memory.
