@@ -22,8 +22,8 @@
     <div id="saxonjs_container"></div>
 
     {# Demo for using the auto-mapped xml via web-components #}
-    {{ object.components.rdf }}
-    {{ object.components.dc }}
+    {{ object.component_map.rdf }}
+    {{ object.component_map.dc }}
 
     {% if 'material' in object.db.id %}
             {% include "custom/material.jinja" %}
