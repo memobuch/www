@@ -36,3 +36,22 @@
 #     """
 #
 #     return []
+
+
+
+# def extend_object_view_fn(digital_objects, load_template_fn, render_view_fn):
+#     """
+
+#     :return:
+#     """
+
+#     # must be called first to load the template (which template? belongs to the operation?)
+#     load_template_fn("event.jinja")
+
+#     # define correspondent location per object
+#     # TODO add logic that only certain objects are being rendered (like of type 'event')
+#     for digital_object in digital_objects:
+#         # defines where the html file will be saved (and so the REST-PATH)
+#         # mapping to the relative path
+#         # TODO ids should be constructed in a certain way.
+#         render_view_fn(digital_object, f"events/{digital_object.db['id']}")
